@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.img{
+    height: 800px;
+    background-image: url('imges/pexels-rafael-guajardo-604684.jpg');
+    background background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.img h1{
+    font-family: arial;
+    font-size: 100px;
+    color: white;
+}
+div.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: arial;
+    font-size: 25px;
+    margin: 0px;
+}
+div.navbar a{
+        padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background color: transparent;
+    color: white;
+}

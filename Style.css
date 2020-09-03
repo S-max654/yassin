@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: arial;
+    font-size: 25px;
+    margin: 0px;
+}
+
+a{
+    margin: 15px;
+}
+
+
+div.maincontent{
+    background-image: url('imges/pink-jelly-fish-2672520.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.details{
+    padding: 30px;
+    color: white;
+    font-family: arial;
+    align-content: space-between;
+}
+button{
+    padding: 15px;
+    width: 50%;
+    font-size: 25px;
+}
+button{
+    padding: 15px;
+    width: 50%;
+    font-size: 25px;
+}
+
+div.items{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.item{ 
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20 px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    font-family: arial;
+}
+h1{text-align: center;
+
+
+}
+
+div.item img{
+    margin-top: 50px;
+    }
+
+div.navbar a{
+        padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background color: transparent;
+    color: white;
+}
+div.details a{
+            padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background color: black;
+    color: white;
+    
+}
